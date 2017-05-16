@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/secondary_text_light"
+	android:text="@string/gameover_score_title"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="5dp"
+	android:textAllCaps="true"
+	android:textStyle="bold"
+	android:textSize="14sp"/>
+
+    <TextView
+	android:id="@+id/gameover_score"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/primary_text_light"
+	android:paddingLeft="18dp"
+	android:paddingRight="15dp"
+	android:paddingBottom="5dp"
+	android:textStyle="bold"
+	android:textSize="18sp"/>
+
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/secondary_text_light"
+	android:text="@string/gameover_level_title"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="5dp"
+	android:textAllCaps="true"
+	android:textStyle="bold"
+	android:textSize="14sp"/>
+
+    <TextView
+	android:id="@+id/gameover_level"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/primary_text_light"
+	android:paddingLeft="18dp"
+	android:paddingRight="15dp"
+	android:paddingBottom="5dp"
+	android:textStyle="bold"
+	android:textSize="18sp"/>
+
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/secondary_text_light"
+	android:text="@string/gameover_removed_title"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="5dp"
+	android:textAllCaps="true"
+	android:textStyle="bold"
+	android:textSize="14sp"/>
+
+    <TextView
+	android:id="@+id/gameover_removed"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/primary_text_light"
+	android:paddingLeft="18dp"
+	android:paddingRight="15dp"
+	android:paddingBottom="5dp"
+	android:textStyle="bold"
+	android:textSize="18sp"/>
+
+    <TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/secondary_text_light"
+	android:text="@string/gameover_highscore_title"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="5dp"
+	android:textAllCaps="true"
+	android:textStyle="bold"
+	android:textSize="14sp"/>
+
+    <TextView
+	android:id="@+id/gameover_highscore"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@android:color/primary_text_light"
+	android:paddingLeft="18dp"
+	android:paddingRight="15dp"
+	android:paddingBottom="5dp"
+	android:textStyle="bold"
+	android:textSize="18sp"/>
+
+  </LinearLayout>
+
+</ScrollView>

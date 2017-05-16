@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/target_sum_label"
+      android:text="@string/game_target_sum"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_alignParentLeft="true"/>
+
+  <TextView
+      android:id="@+id/target_sum_text"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="96dp"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@id/target_sum_label"
+      android:paddingLeft="8dp"
+      android:paddingStart="8dp"/>
+
+  <TextView
+      android:id="@+id/score_label"
+      android:text="@string/game_score"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@id/target_sum_text"
+      android:paddingLeft="8dp"
+      android:paddingStart="8dp"/>
+
+  <TextView
+      android:id="@+id/score_text"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="96dp"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@id/score_label"
+      android:paddingLeft="8dp"
+      android:paddingStart="8dp"/>
+
+  <ImageButton
+      android:id="@+id/pause"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_alignParentRight="true"
+      style="@android:style/Widget.ActionButton"
+      android:src="@drawable/ic_action_pause"/>
+
+</RelativeLayout>

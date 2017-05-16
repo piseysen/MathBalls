@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_scr_main">
+
+    <PreferenceCategory
+	android:title="@string/pref_cat_settings">
+
+      <CheckBoxPreference
+	  android:key="pref_sound_enable"
+	  android:title="@string/pref_sound_enable_title"
+	  android:defaultValue="true"
+	  android:summaryOn="@string/pref_sound_enable_summary_on"
+	  android:summaryOff="@string/pref_sound_enable_summary_off"/>
+
+      <CheckBoxPreference
+	  android:key="pref_vibrate_enable"
+	  android:title="@string/pref_vibrate_enable_title"
+	  android:defaultValue="true"
+	  android:summaryOn="@string/pref_vibrate_enable_summary_on"
+	  android:summaryOff="@string/pref_vibrate_enable_summary_off"/>
+
+      <CheckBoxPreference
+	  android:key="pref_fullscreen_enable"
+	  android:title="@string/pref_fullscreen_enable_title"
+	  android:defaultValue="true"
+	  android:summaryOn="@string/pref_fullscreen_enable_summary_on"
+	  android:summaryOff="@string/pref_fullscreen_enable_summary_off"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+	android:title="@string/pref_cat_gpgs">
+
+      <CheckBoxPreference
+	  android:key="pref_gpgs_enable"
+	  android:title="@string/pref_gpgs_enable_title"
+	  android:defaultValue="true"
+	  android:summaryOn="@string/pref_gpgs_enable_summary_on"
+	  android:summaryOff="@string/pref_gpgs_enable_summary_off"/>
+
+      <Preference
+	  android:key="pref_gpgs_signin"
+	  android:title="@string/pref_gpgs_signin_title"
+	  android:selectable="true"/>
+
+      <Preference
+	  android:key="pref_gpgs_settings"
+	  android:title="@string/pref_gpgs_settings_title"
+	  android:selectable="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

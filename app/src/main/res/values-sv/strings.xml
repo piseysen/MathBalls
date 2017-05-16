@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Balls</string>
+
+    <string name="menu_opt_pref">Inställningar</string>
+    <string name="menu_opt_about">Om Math Balls</string>
+    <string name="menu_opt_rate">Betygsätt Math Balls</string>
+
+    <string name="about_title">Om Math Balls</string>
+    <string name="about_howtoplay_title">Hur man spelar</string>
+    <string name="about_howtoplay_text">I Math Balls ska man kombinera numrerade bollar för att nå en målsumma. Alla bollar måste tryckas på samtidigt. Hur många eller få bollar som helst kan kombineras.\n\nOm den röda linjen i toppen går ner helt, tar spelet slut. Den återgår till fullt varje gång målsumman nås.\n\nDen blå linjen i toppen visar hur långt det är till nästa nivå. Varje nivå gör spelet lite svårare.\n\nDet finns tre svårighetsgrader som kan väljas i menyn.</string>
+    <string name="about_scoring_title">Poäng</string>
+    <string name="about_scoring_text">Poäng i Math Balls räknas utifrån färgen på bollarna och antalet bollar som kombineras till målsumman. Blå bollar är värda mest, sen röda bollar och gröna bollar minst. Ju fler bollar som kombineras, destå mer poäng får du. Det är oftast bättre att kombinera många gröna och röda bollar, än några få blå.</string>
+    <string name="about_credits_title">Skapare</string>
+    <string name="about_credits_text">All design, grafik och programmering av Tomas Skäre.\n\nLjud är fria samplingar från freesounds.org.</string>
+    <string name="about_button_ok">OK</string>
+
+    <string name="menu_resume">Fortsätt spel</string>
+    <string name="menu_start_new">Nytt spel</string>
+    <string name="menu_achievements">Prestationer</string>
+    <string name="menu_leaderboards">Topplistor</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_rate">Betygsätt</string>
+    <string name="menu_gametype_label">Svårighet:</string>
+
+    <string name="gms_alert_achievements">Logga in för att se prestationer.</string>
+    <string name="gms_alert_leaderboards">Logga in för att se topplistor.</string>
+
+    <string name="gamehelper_sign_in_failed">Inloggning misslyckades. Kontrollera nätverkskontakt och prova igen i inställningar.</string>
+    <string name="gamehelper_app_misconfigured">Applikationen har ett fel, var vänlig rapportera detta till utvecklaren.</string>
+    <string name="gamehelper_license_failed">Licenskontroll misslyckades.</string>
+    <string name="gamehelper_unknown_error">Okänt fel.</string>
+
+    <string name="game_target_sum">Målsumma:</string>
+    <string name="game_score">Poäng:</string>
+
+    <string name="gameover_title">Spelet är slut</string>
+    <string name="gameover_button_share">Dela</string>
+    <string name="gameover_button_highscores">Topplistor</string>
+    <string name="gameover_button_newgame">Nytt spel</string>
+    <string name="gameover_score_title">Poäng</string>
+    <string name="gameover_level_title">Nivå</string>
+    <string name="gameover_removed_title">Borttagna bollar</string>
+    <string name="gameover_highscore_title">Högsta poäng</string>
+
+    <string name="share_title">Dela dina poäng</string>
+    <string name="share_subject">Mina poäng i Math Balls</string>
+    <string name="share_text">Jag fick just %1$s poäng i Math Balls med %2$s svårighet. Kan du slå det? Prova själv, http://bit.ly/mathballs #MathBalls</string>
+
+    <string name="confirmnew_title">Är du säker?</string>
+    <string name="confirmnew_message">Den tidigare omgången kommer att tas bort om du startar ett nytt spel.</string>
+    <string name="confirmnew_cancel">Avbryt</string>
+    <string name="confirmnew_ok">Fortsätt</string>
+
+    <string name="pause_title">Spelet pausat</string>
+    <string name="pause_resume">Fortsätt</string>
+    <string name="pause_exit">Avsluta</string>
+
+    <string name="pref_cat_settings">Game settings</string>
+    <string name="pref_sound_enable_title">Enable sound</string>
+    <string name="pref_sound_enable_summary_on">Sounds will be played</string>
+    <string name="pref_sound_enable_summary_off">Sounds will not be played</string>
+    <string name="pref_vibrate_enable_title">Enable vibration</string>
+    <string name="pref_vibrate_enable_summary_on">Vibration will be used</string>
+    <string name="pref_vibrate_enable_summary_off">Vibration will not be used</string>
+    <string name="pref_fullscreen_enable_title">Enable fullscreen where available</string>
+    <string name="pref_fullscreen_enable_summary_on">Fullscreen mode will be used if available</string>
+    <string name="pref_fullscreen_enable_summary_off">Fullscreen mode will not be used</string>
+    <string name="pref_cat_gpgs">Google Play Games Services</string>
+    <string name="pref_gpgs_enable_title">Enable Google Play Games Services</string>
+    <string name="pref_gpgs_enable_summary_on">Will try to sign in with Google</string>
+    <string name="pref_gpgs_enable_summary_off">Will not sign in with Google</string>
+    <string name="pref_gpgs_signin_title">Sign in with Google</string>
+    <string name="pref_gpgs_signin_summary_enabled_signedin">You are currently signed in as %1$s</string>
+    <string name="pref_gpgs_signin_summary_enabled_signedout">You are currently not signed in</string>
+    <string name="pref_gpgs_signin_summary_disabled">Enable Google Play Services to sign in</string>
+    <string name="pref_gpgs_settings_title">Google settings</string>
+    <string name="pref_gpgs_settings_summary_enabled_signedin">Manage your Google Play Services settings</string>
+    <string name="pref_gpgs_settings_summary_enabled_signedout">Sign in to manager your Google Play Services settings</string>
+    <string name="pref_gpgs_settings_summary_disabled">Enable Google Play Services to manage settings</string>
+</resources>

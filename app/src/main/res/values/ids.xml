@@ -1,0 +1,18 @@
+<resources>
+    <string translatable="false" name="app_id">530276400817</string>
+
+    <string translatable="false" name="achievement_fantastic_four">CgkIsf2-t7cPEAIQDA</string>
+    <string translatable="false" name="achievement_high_five">CgkIsf2-t7cPEAIQAQ</string>
+    <string translatable="false" name="achievement_sixth_sense">CgkIsf2-t7cPEAIQAg</string>
+    <string translatable="false" name="achievement_lucky_seven">CgkIsf2-t7cPEAIQAw</string>
+    <string translatable="false" name="achievement_magic_eight">CgkIsf2-t7cPEAIQBA</string>
+    <string translatable="false" name="achievement_nine_lives">CgkIsf2-t7cPEAIQBQ</string>
+    <string translatable="false" name="achievement_hang_ten">CgkIsf2-t7cPEAIQBg</string>
+    <string translatable="false" name="achievement_100_balls_in_one_game">CgkIsf2-t7cPEAIQCA</string>
+    <string translatable="false" name="achievement_200_balls_in_one_game">CgkIsf2-t7cPEAIQCQ</string>
+    <string translatable="false" name="achievement_500_balls_in_one_game">CgkIsf2-t7cPEAIQCg</string>
+
+    <string translatable="false" name="leaderboard_high_scores__easy">CgkIsf2-t7cPEAIQDQ</string>
+    <string translatable="false" name="leaderboard_high_scores__normal">CgkIsf2-t7cPEAIQCw</string>
+    <string translatable="false" name="leaderboard_high_scores__hard">CgkIsf2-t7cPEAIQDg</string>
+</resources>

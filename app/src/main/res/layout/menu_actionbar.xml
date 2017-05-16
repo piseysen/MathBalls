@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/menu_title"
+      android:text="@string/app_name"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_alignParentLeft="true"/>
+
+  <Spinner
+      android:id="@+id/gametype"
+      style="@android:style/Widget.Holo.Light.Spinner"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_alignParentRight="true"/>
+
+  <TextView
+      android:id="@+id/gametype_label"
+      android:text="@string/menu_gametype_label"
+      style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toLeftOf="@id/gametype"/>
+
+</RelativeLayout>
