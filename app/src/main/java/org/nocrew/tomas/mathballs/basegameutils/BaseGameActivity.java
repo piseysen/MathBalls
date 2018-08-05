@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.util.Log;
 
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.games.GamesActivityResultCodes;
 
 /**
  * Example base class for games. This implementation takes care of setting up
@@ -121,6 +122,11 @@ public abstract class BaseGameActivity extends Activity implements
     protected void onActivityResult(int request, int response, Intent data) {
         super.onActivityResult(request, response, data);
         mHelper.onActivityResult(request, response, data);
+
+        if (response == GamesActivityResultCodes.RESULT_RECONNECT_REQUIRED){
+            // force a disconnect to sync up state, ensuring that mClient reports "not connected"
+            mHelper.getApiClient().disconnect();
+        }
     }
 
     protected GoogleApiClient getApiClient() {
