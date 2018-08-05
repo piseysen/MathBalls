@@ -19,7 +19,22 @@ android {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-games:10.2.4'
-    compile 'com.google.android.gms:play-services-drive:10.2.4'
-    compile 'com.google.android.gms:play-services-plus:10.2.4'
+    implementation 'com.google.android.gms:play-services-games:15.0.1'
+    implementation 'com.google.android.gms:play-services-drive:15.0.1'
+    implementation 'com.google.android.gms:play-services-plus:15.0.1'
+}
+
+repositories {
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
+buildscript {
+    repositories {
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
 }
