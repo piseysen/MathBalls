@@ -22,6 +22,8 @@ out/
 .gradle
 .gradle/
 build/
+gradlew
+gradlew.bat
 
 # Signing files
 .signing/
@@ -81,6 +83,30 @@ obj/
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 .idea/markdown-navigator*
+.idea/caches/
+.idea/codeStyles/
+
+app/.idea/libraries/
+app/.idea/workspace.xml
+app/.idea/tasks.xml
+app/.idea/.name
+app/.idea/compiler.xml
+app/.idea/copyright/profiles_settings.xml
+app/.idea/encodings.xml
+app/.idea/misc.xml
+app/.idea/modules.xml
+app/.idea/scopes/scope_settings.xml
+app/.idea/dictionaries
+app/.idea/vcs.xml
+app/.idea/jsLibraryMappings.xml
+app/.idea/datasources.xml
+app/.idea/dataSources.ids
+app/.idea/sqlDataSources.xml
+app/.idea/dynamic.xml
+app/.idea/uiDesigner.xml
+app/.idea/markdown-navigator*
+app/.idea/caches/
+app/.idea/codeStyles/
 
 # Keystore files
 *.jks
